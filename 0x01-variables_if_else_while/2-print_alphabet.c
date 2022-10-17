@@ -2,23 +2,23 @@
 
 #include <time.h>
 
-/* more headers goes there */
-
-
-
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ * Description: prints the alphabet in lowercase\n
+ * Return: Always 0 (success)
+ */
 
 int main(void)
 
-
 {
-	char ch;
+	char a = 'a';
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-{
-		putchar(ch);
-}
+
+	while (a <= 'z')
+			{
+			putchar(a);
+			a++;
+			}
 	putchar('\n');
-
 	return (0);
 }
