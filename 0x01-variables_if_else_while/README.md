@@ -1,1 +1,0 @@
-About C-Variables, if, else, and while loops
