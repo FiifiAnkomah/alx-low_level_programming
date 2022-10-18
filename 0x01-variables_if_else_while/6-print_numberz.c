@@ -9,11 +9,14 @@
 int main(void)
 
 {
-	char b;
+	int i = 48;
 
-	for (b = 'a'; b <= 'z'; b++)
-		if (b != 'q' && b != 'e')
-			putchar(b);
-	putchar('\n');
+	while (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
+
+	putchar("\n");
 	return (0);
 }
