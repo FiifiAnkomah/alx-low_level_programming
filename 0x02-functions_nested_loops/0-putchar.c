@@ -1,0 +1,23 @@
+#include "-putchar"
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
+
+int main(void)
+
+{
+	char str[9] = "_putchar";
+	int count = 0;
+
+	while (count < 9)
+	{
+		_putchar(str[count]);
+		++count;
+	}
+	_putchar('\n');
+	return (0);
+}
