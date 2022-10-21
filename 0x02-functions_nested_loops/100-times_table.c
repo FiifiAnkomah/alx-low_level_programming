@@ -1,17 +1,19 @@
 #include "main.h"
 
 /**
- * add - adds two integers
- * @n1: integer 1
- * @n2: integer 2
- * Description: give two integers, returns sum
+ * main - check the code for ALX School students.
+ *
  * Return: sum
  */
 
-int add(int n1, int n2)
+int main(void)
 {
-	int sum;
-
-	sum = n1 + n2;
-	return (sum);
+	print_times_table(3);
+	_putchar('\n');
+	print_times_table(5);
+	_putchar('\n');
+	print_times_table(98);
+	_putchar('\n');
+	print_times_table(12);
+	return (0);
 }
