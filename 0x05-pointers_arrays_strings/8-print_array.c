@@ -2,8 +2,11 @@
 #include "stdio.h"
 
 /**
- * void print_array - print n elements of n array integers
+ * print_array - print n elements of n array integers
+ * @a: array
+ * @n: elements to print
  */
+ 
 
 void print_array(int *a, int n)
 {
