@@ -4,7 +4,7 @@
  * void_puts - print a string, followed by a new line
  */
 
-void_puts(char *str)
+void _puts(char *str)
 {
 	int i;
 

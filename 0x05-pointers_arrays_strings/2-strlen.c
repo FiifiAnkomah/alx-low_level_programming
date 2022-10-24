@@ -2,10 +2,11 @@
 
 /**
  * int_strlen - return  the length of a string
+ * @s:char type pointer
  * Return: length of string
  */
 
-int_strlen(char *s)
+int _strlen(char *s)
 {
 	int c;
 
