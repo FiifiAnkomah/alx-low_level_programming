@@ -1,11 +1,13 @@
 #include "main.h"
 
+
+
 /**
  * separator - checks if character is a seperator
- *
  * @c: character to be checked
  * Return: if seperator return 1. Otherwise return 0;
  */
+
 
 int separator(char c)
 {
@@ -41,7 +43,9 @@ char *cap_string(char *s)
 
 	upper = -32;
 
+
 	count = 0;
+
 	while (s[count] != '\0')
 	{
 		if (s[count] >= 'a' && s[count] <= 'z')
