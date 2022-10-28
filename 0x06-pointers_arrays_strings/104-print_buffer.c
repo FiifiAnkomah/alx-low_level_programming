@@ -65,10 +65,11 @@ void printASCII(char *b, int start, int end)
  * @b: string
  * @size: size of buffer
  */
+
 void print_buffer(char *b, int size)
 {
 	int start, end;
-
+	
 	if (size > 0)
 	{
 		for (start = 0; start < size; start += 10)
@@ -82,3 +83,5 @@ void print_buffer(char *b, int size)
 	} else
 		printf("\n");
 }
+
+
