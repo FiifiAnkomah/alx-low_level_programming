@@ -6,19 +6,20 @@
  * @s1: This is the input string
  * @s2: This is the input string
  *
- * Return: If the strings are equals return "0", if not return other number
+ * Return: dest
  */
 
 
 int _strcmp(char *s1, char *s2)
 {
-	for (; (*s1 != '\0' && *s2 != '\0') && (*s1 == *s2); s1++, s2++)
-		;
-	
-	if (*s1 == *s2)
-	{
-		return (0);
-	}
-	return (*s1 - *s2);
+	char *str_one = s1;
+	char *str_two = s2;
 
+	while (*str_one != '\0' && *str_two != '\0' &&  *str_one == *str_two)
+	{
+		str_one++;
+		str_two++;
+	}
+
+	return (*str_one - *str_two);
 }
