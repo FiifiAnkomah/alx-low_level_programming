@@ -1,9 +1,7 @@
 #include "main.h"
 
 
-
 /**
-
 * factorial - searchs for the factorial of a number
 
 * @n: the number to find the factorial of
@@ -37,5 +35,4 @@ int factorial(int n)
 	next = factorial(n - 1);
 
 	return (n * next);
-
 }
