@@ -3,15 +3,10 @@
 
 /**
 * factorial - searchs for the factorial of a number
-
-* @n: the number to find the factorial of
-
+* @n: the number to find the factorial
 *
-
 * Return: the factorial of the number
-
 */
-
 
 
 int factorial(int n)
