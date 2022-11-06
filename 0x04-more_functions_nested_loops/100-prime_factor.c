@@ -1,17 +1,12 @@
 #include <stdio.h>
 
 
-
 /**
-
  * main - program that prints out the highest prime
-
  * Return: 0
-
  */
 
 int main(void)
-
 {
 
 	int i = 2;
@@ -55,5 +50,4 @@ int main(void)
 	printf("%lu\n", n);
 
 	return (0);
-
 }
