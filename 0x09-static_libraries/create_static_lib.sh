@@ -1,5 +1,7 @@
 #!/bin/bash
 
-gcc -Wall -pedantic -Werror -Wextra -c *.c
-ar -rc libmy.a *.o
-ranlib limy.a
+gcc -c *.c
+
+ar rc liball.a *.o
+
+ranlib liball.a
