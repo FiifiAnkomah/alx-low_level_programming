@@ -18,7 +18,6 @@ int main(void)
 
 
 	while (i < n)
-
 	{
 
 		while (n % i == 0)
@@ -28,23 +27,14 @@ int main(void)
 			if (n == i)
 
 			{
-
 				break;
-
 			}
 
 			n /= i;
-
 		}
 
 		i++;
-
-
-
-
-
 	}
-
 
 
 	printf("%lu\n", n);
